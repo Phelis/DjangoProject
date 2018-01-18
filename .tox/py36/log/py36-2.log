@@ -1,0 +1,12 @@
+actionid: py36
+msg: installpkg
+cmdargs: ['/Users/felixchen/Desktop/djangogirls/.tox/py36/bin/pip', 'install', '/Users/felixchen/Desktop/djangogirls/.tox/dist/test_tox-0.0.0.zip']
+
+Processing ./.tox/dist/test_tox-0.0.0.zip
+Building wheels for collected packages: test-tox
+  Running setup.py bdist_wheel for test-tox: started
+  Running setup.py bdist_wheel for test-tox: finished with status 'done'
+  Stored in directory: /Users/felixchen/Library/Caches/pip/wheels/ca/3b/b1/5e7ac779ebe32b4e85981d9baa1981c74a5ee61516957eb00d
+Successfully built test-tox
+Installing collected packages: test-tox
+Successfully installed test-tox-0.0.0

@@ -1,0 +1,24 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/Users/felixchen/Desktop/djangogirls/.tox/py27/bin/pip', 'install', 'pytest']
+
+Collecting pytest
+  Downloading pytest-3.3.1-py2.py3-none-any.whl (184kB)
+Collecting attrs>=17.2.0 (from pytest)
+  Downloading attrs-17.3.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py27/lib/python2.7/site-packages (from pytest)
+Collecting six>=1.10.0 (from pytest)
+  Using cached six-1.11.0-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest)
+  Using cached py-1.5.2-py2.py3-none-any.whl
+Collecting funcsigs; python_version < "3.0" (from pytest)
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting pluggy<0.7,>=0.5 (from pytest)
+  Using cached pluggy-0.6.0.tar.gz
+Building wheels for collected packages: pluggy
+  Running setup.py bdist_wheel for pluggy: started
+  Running setup.py bdist_wheel for pluggy: finished with status 'done'
+  Stored in directory: /Users/felixchen/Library/Caches/pip/wheels/df/44/8e/e136760ae525eac46b3e3db643ef58ff1753177b5a722b0c96
+Successfully built pluggy
+Installing collected packages: attrs, six, py, funcsigs, pluggy, pytest
+Successfully installed attrs-17.3.0 funcsigs-1.0.2 pluggy-0.6.0 py-1.5.2 pytest-3.3.1 six-1.11.0

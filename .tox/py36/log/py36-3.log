@@ -1,0 +1,10 @@
+actionid: py36
+msg: envreport
+cmdargs: ['/Users/felixchen/Desktop/djangogirls/.tox/py36/bin/pip', 'freeze']
+
+attrs==17.3.0
+pluggy==0.6.0
+py==1.5.2
+pytest==3.3.1
+six==1.11.0
+test-tox==0.0.0

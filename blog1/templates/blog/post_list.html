@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/blog.css' %}" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+
+    <h1><a href="/">Django Using Google Font</a></h1>
+
+    <body>
+        <div>Making the Web Beautiful!</div>
+
+        <div class="font-effect-shadow-multiple">This is a font effect!<div>
+
+        <div>
+            <h1>ffff</h1>
+        </div>
+        <div>
+            <h1><a href="/">Django Girls Blog</a></h1>
+        </div>
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text }}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>
